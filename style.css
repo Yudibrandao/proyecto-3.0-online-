@@ -1,0 +1,125 @@
+body{
+    background: url(img/espacio.jpg);
+}
+
+
+html{
+    margin: 0px;
+}
+
+
+/* 
+.screen {
+   
+    display: flex;
+    padding: 0;
+    height: 100vh;
+    background-size: cover;
+    margin-right: 0;
+    margin-left: 0;
+    box-sizing: border-box;
+    object-fit: cover;
+    overflow: hidden;
+    justify-content: center;
+    align-content: space-around;
+} */
+
+.name {
+    display: flex;
+    color: rgb(55, 134, 186);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.players {
+    display: flex;
+    justify-content: center;
+    margin-top: 70%;
+}
+
+.instructions {
+    display: flex;
+    justify-content: center;
+    margin-top: 70%;
+}
+
+.instructionsGame {
+    color: rgb(183, 223, 246);
+}
+
+
+.return {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: baseline;
+}
+
+
+.colum0 {
+
+    display: flex;
+    justify-content: center;
+    letter-spacing: 10vh;
+    font-size: x-large;
+    margin-top: 10vh;
+}
+
+
+header,
+footer {
+    padding: 2vh;
+}
+
+main {
+    margin: 5vh auto;
+}
+
+.try {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.left,
+.right {
+    display: flex;
+}
+
+.left>div,
+.right>div {
+    width: 3vh;
+    height: 3vh;
+    border-radius: 50%;
+    background-color: dimgrey;
+    margin: 3vh;
+}
+
+.color{
+    border-radius: 50%;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.select{
+    width: 5vh;
+    height: 5vh;
+    border: 0px;
+    outline: none;
+}
+
+input[type-button] {
+    cursor: pointer;
+    color: aliceblue;
+    border-radius: 5vh;
+    height: 5vh;
+    width: 5vh;
+    margin: 2vh auto;
+    transition: 0.5s;
+
+}
+
+select:hover, 
+input:hover{
+    opacity: 0.8;
+}
