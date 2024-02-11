@@ -1,16 +1,17 @@
-body{
+body {
     background: url(img/espacio.jpg);
+
 }
 
 
-html{
+html {
     margin: 0px;
 }
 
 
-/* 
+
 .screen {
-   
+
     display: flex;
     padding: 0;
     height: 100vh;
@@ -22,7 +23,16 @@ html{
     overflow: hidden;
     justify-content: center;
     align-content: space-around;
-} */
+}
+
+#game {
+    text-align: center;
+    border-radius: 10%;
+    border: 5px solid;
+    background-color: bisque;
+    max-width: 90vh;
+    margin: 2vh auto;
+}
 
 .name {
     display: flex;
@@ -95,23 +105,26 @@ main {
     margin: 3vh;
 }
 
-.color{
-    border-radius: 50%;
+
+
+.select {
+    
     display: inline-block;
     overflow: hidden;
 }
 
-.select{
+.select select {
     width: 5vh;
     height: 5vh;
-    border: 0px;
+    border: 0vh;
     outline: none;
+
 }
 
 input[type-button] {
     cursor: pointer;
     color: aliceblue;
-    border-radius: 5vh;
+    border-radius: 50vh;
     height: 5vh;
     width: 5vh;
     margin: 2vh auto;
@@ -119,7 +132,11 @@ input[type-button] {
 
 }
 
-select:hover, 
-input:hover{
+select:hover,
+input:hover {
     opacity: 0.8;
+}
+
+input[type-button]:active {
+    background-color: rgb(231, 201, 238);
 }
