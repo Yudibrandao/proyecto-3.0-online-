@@ -29,7 +29,7 @@ html {
     text-align: center;
     border-radius: 10%;
     border: 5px solid;
-    background-color: rgb(243, 192, 247);
+    background-color: rgb(87, 74, 74);
     max-width: 90vh;
     margin: 2vh auto;
 }
@@ -46,6 +46,22 @@ html {
     display: flex;
     justify-content: center;
     margin-top: 70%;
+}
+
+.alinacionJugador{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.confColumJ{
+    display: flex;
+    max-width: 20vh;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: normal;
+    align-items: normal;
+    align-content: normal;
 }
 
 .instructions {
@@ -69,9 +85,18 @@ html {
 
 .btn1{
     width: 20vh;
-    left: 7vh;
-    background-color: rgb(90, 92, 211);
+    left: 3vh;
+    background-color: rgb(113, 115, 220);
+    border-style:ridge;
+  
 }
+
+/* .btnJugar{
+    width: 20vh;
+    left: 3vh;
+    background-color: rgb(113, 115, 220);
+    border-style:ridge;
+} */
 
 
 .colum0 {
