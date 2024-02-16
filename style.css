@@ -29,7 +29,7 @@ html {
     text-align: center;
     border-radius: 10%;
     border: 5px solid;
-    background-color: bisque;
+    background-color: rgb(243, 192, 247);
     max-width: 90vh;
     margin: 2vh auto;
 }
@@ -52,6 +52,7 @@ html {
     display: flex;
     justify-content: center;
     margin-top: 70%;
+    
 }
 
 .instructionsGame {
@@ -63,6 +64,13 @@ html {
     display: flex;
     flex-direction: column-reverse;
     align-items: baseline;
+    
+}
+
+.btn1{
+    width: 20vh;
+    left: 7vh;
+    background-color: rgb(90, 92, 211);
 }
 
 
@@ -123,10 +131,10 @@ main {
 
 input[type-button] {
     cursor: pointer;
-    color: aliceblue;
+    color: rgb(245, 240, 255);
     border-radius: 50vh;
     height: 5vh;
-    width: 5vh;
+    width: 10vh;
     margin: 2vh auto;
     transition: 0.5s;
 
@@ -135,6 +143,7 @@ input[type-button] {
 select:hover,
 input:hover {
     opacity: 0.8;
+   
 }
 
 input[type-button]:active {
