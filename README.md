@@ -23,7 +23,7 @@ Jugar que te llevara  a la opción de poder colocar el nombre del jugador y post
 
 Instrucciones donde explica en que consiste el juego.
 
-![Mastermind](/img/MastermindJugar.png)
+![Mastermind](/img/MastermindJuego.png.png)
 
 En esta imagen podemos ver el juego Mastermind, donde tenemos en la parte izquierda oportunidades para seleccionar 4 colores y en la parte derecha donde se verifica si las ubicacion de los colores es correcto. 
 
